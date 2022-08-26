@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="laco.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- <div class="youtube">
+    <iframe width="1088" height="612" src="https://www.youtube.com/embed/5sp_qdC3_dg" title="[단독샷캠4K] 뉴진스 'Hype Boy' 단독샷 별도녹화│NewJeans ONE TAKE STAGE @SBS Inkigayo 220821" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> -->
+    <div class="container-fluid mb-2 p-3">
+        <div class="row text-center">
+            <div class="col-3 col-md-4 col-lg-8 bg-success">vvv</div>
+            <div class="col-3 col-md-4 col-lg-2 bg-warning">bbbb</div>
+            <div class="col-6 col-md-4 col-lg-2 bg-danger">nnn</div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row text-center bg-success text-dark">
+            <div class="col-6">nmkg</div>
+            <div class="col-6">kgo</div>
+        </div>
+        <div class="row text-center bg-secondary text-primary">
+            <div class="col-6"> abc</div>
+            <div class="col-6">cvb</div>
+        </div>\
+        <div class="row text-center bg-warning text-white">
+            <div class="col-6">nmkg</div>
+            <div class="col-6">kgo</div>
+        </div>
+    </div>
+    <!-- header>nav>ul>li*3>a{$} -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <label for="thuBa">Nhập giá trị a </label>
+            <input type="text" name="thuBa" id="thuBa">
+        </div>
+        <button type="button" onclick="findEvenNumbers()">Submit</button>
+    </main>
+    <div class="thuhai">nnnnnnn</div>
+    Kết quả là:
+    <h1 id="abc"></h1>
+    <script>
+        const nums = [77, 12, 10, 10, 15, 9];
+        function findEvenNumbers(nums) {
+            let sum=0
+            for (let i = 0; i < nums.length; i++) {
+                if (nums[i] % 2 ===0) {
+                console.log(nums[i])
+                sum+=nums[i]
+                }
+            }
+            console.log(`Tong la:${sum}`)      
+        } 
+        console.log("e")
+        findEvenNumbers(nums)
+
+               /*  let a = 22.5
+         let b = parseFloat(a)
+         console.log(b) */
+        /*         let x = 5;
+                        let z =Math.pow(x,3);   // result is 25
+                        console.log(10/5) */
+        /*       let x = 10;
+                    console.log(x)
+                    x--;
+                    console.log(x) */
+        /* if(10==10){
+            console.log("10==10")
+        } */
+        /*     if("10"===10){
+                console.log("10==10")
+            } */
+        /*         console.log("10"===10)
+                let a=10;
+                let b=5;
+                let c="thuBa";
+                let d=true;
+                a+=b
+                console.log(a)
+                console.log(a!==b)
+                console.log(typeof a)
+                console.log(typeof c)
+                console.log(typeof d) */
+        // Tim so chan
+        /* function findEvenNumbers() {
+            let num = parseInt(document.getElementById("thuBa").value);
+            if (num % 2 === 0) {
+              return  console.log(`${num} is even`)
+            }
+
+            console.log(`${num} is odd`)
+
+        } */
+        // ham tinh tong
+        /* function plus(a, b) {
+            return a + b;
+        }
+        // ham tru hai so
+        function minus(a, b) {
+            return a - b;
+        }
+        // ham nhan hai so
+        function multiplication(a, b) {
+            return a * b;
+        }
+        // ham tinh thuong
+        function division(a, b) {
+            return a / b;
+        }
+        // ham tinh phep chia lay du
+        function divisionWithRemainer(a, b) {
+            return a % b;
+        }
+        // tim gia tri lon nhat
+        function findMax(a, b) {
+            let max = a;
+            if (b > a) {
+                max = b;
+            }
+            return max;
+        }
+        function writeSomething() {
+            console.log("nnnnnnnnnnnnn")
+        }
+        function giaiPhuongTrinhBacNhat(a, b) {
+            console.log("ket qua cua phuong trinh la")
+            return -b / a;
+        }
+        document.getElementById("abc").innerHTML = plus(4, 3);
+        let x = 7;
+        let y = 5;
+        console.log(plus(x, y))
+        console.log(minus(x, y))
+        console.log(multiplication(x, y))
+        console.log(division(x, y))
+        console.log(divisionWithRemainer(x, y))
+        console.log('Tìm max');
+        console.log(findMax(x, y))
+        console.log(writeSomething())
+        console.log(giaiPhuongTrinhBacNhat(4, -8))
+ */
+    </script>
+</body>
+
+</html>
